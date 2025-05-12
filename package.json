@@ -7,7 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"formatter": "prettier --write ."
+		"formatter": "prettier --write .",
+		"prepare": "husky"
 	},
 	"dependencies": {
 		"next": "15.3.2",
@@ -22,6 +23,7 @@
 		"@types/react-dom": "^19",
 		"eslint": "^9",
 		"eslint-config-next": "15.3.2",
+		"husky": "^9.1.7",
 		"prettier": "^3.5.3",
 		"tailwindcss": "^4",
 		"typescript": "^5"
